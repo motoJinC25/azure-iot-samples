@@ -1,0 +1,21 @@
+{
+  "name": "azure-iot-samples",
+  "version": "0.0.1",
+  "description": "Azure IoT & Azure IoT Edge samples",
+  "author": "Jingun Jung",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motoJinC25/azure-iot-samples.git"
+  },
+  "dependencies": {
+    "azure-iot-device": "^1.17.5",
+    "azure-iot-device-mqtt": "^1.15.5",
+    "azure-iot-provisioning-device": "^1.8.9",
+    "azure-iot-provisioning-device-mqtt": "^1.7.9",
+    "azure-iot-security-symmetric-key": "^1.7.9"
+  }
+}
