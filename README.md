@@ -66,3 +66,20 @@ Sending message: {"temperature":29.121976444944433}
 Send status: MessageEnqueued
 ...
 ```
+
+### Send Telemetry 
+
+```
+$ export DEVICE_HOSTNAME="00000000000.azure-devices.net"
+$ export DEVICE_ID="00000000000"
+$ export DEVICE_SHARED_ACCESS_KEY="00000000000"
+$ node iot_telemetry_symkey.js
+Client connected
+Sending message: {"temperature":22.921282120803713}
+Send status: MessageEnqueued
+Sending message: {"temperature":27.314930218271417}
+Send status: MessageEnqueued
+Sending message: {"temperature":29.121976444944433}
+Send status: MessageEnqueued
+...
+```
